@@ -1,8 +1,4 @@
-const getUsersWithFriend = (users, friendName) => {
-  const friendsOf = [];
-  
-  return friendsOf;
-}
+const getUsersWithFriend = (users, friendName) => users.filter(user => user.friends.includes(friendName));
 
 /* Напиши стрілочну функцію getUsersWithFriend(users, friendName) , яка прийматиме два параметра:
 
