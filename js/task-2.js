@@ -1,9 +1,7 @@
-function calcAverageCalories(days) {
-  var calsSum = 0;
-  for ( const day of days){
-    calsSum += day.calories;
-  }
-  return (days.length === 0) ? 0 : calsSum / days.length;
+const getUsersWithFriend = (users, friendName) => {
+  const friendsOf = [];
+  
+  return friendsOf;
 }
 
 /* Напиши стрілочну функцію getUsersWithFriend(users, friendName) , яка прийматиме два параметра:
@@ -18,7 +16,7 @@ function calcAverageCalories(days) {
 
 Метод filter() можна використовувати для створення нового масиву з елементами, які задовольняють певну умову.
 Використовуй метод includes() для перевірки, чи масив friends містить friendName.
-Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
+Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи. */
 
 
 
@@ -79,7 +77,7 @@ console.log(getUsersWithFriend(allUsers, "Goldie Gentry"));
 
 console.log(getUsersWithFriend(allUsers, "Adrian Cross" )); // []
 
-Залиш цей код для перевірки ментором.
+/* Залиш цей код для перевірки ментором.
 
 
 

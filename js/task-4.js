@@ -1,18 +1,8 @@
-const profile = {
-  username: "Jacob",
-  playTime: 300,
-  changeUsername(newName) {
-    this.username = newName;
-  },
-  updatePlayTime(...hours) {
-    for (const hrs of hours) {
-      this.playTime += hrs;
-    }
-  },
-  getInfo() {
-    return `${this.username} has ${this.playTime} active hours!`
-  },
-};
+const getTotalBalanceByGender = (users, gender) => {
+  const balanceTotal = 0;
+  
+  return balanceTotal;
+}
 
 /* Напиши стрілочну функцію getTotalBalanceByGender(users, gender), яка прийматиме два параметра:
 
@@ -20,7 +10,7 @@ const profile = {
 другий параметр gender — рядок, що зберігає стать.
 Функція має використовувати ланцюжок виклику методів та повертати загальний баланс користувачів (властивість balance), стать яких (властивість gender) збігається зі значенням параметра gender.
 
-Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
+Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи. */
 
 
 
@@ -66,7 +56,7 @@ console.log(getTotalBalanceByGender(clients, "male")); // 12053
 
 console.log(getTotalBalanceByGender(clients, "female")); // 8863
 
-Залиш цей код для перевірки ментором.
+/* Залиш цей код для перевірки ментором.
 
 
 

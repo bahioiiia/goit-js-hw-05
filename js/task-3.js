@@ -1,24 +1,18 @@
-const profile = {
-  username: "Jacob",
-  playTime: 300,
-  changeUsername(newName) {
-    this.username = newName;
-  },
-  updatePlayTime(...hours) {
-    for (const hrs of hours) {
-      this.playTime += hrs;
-    }
-  },
-  getInfo() {
-    return `${this.username} has ${this.playTime} active hours!`
-  },
-};
+/**
+ * 
+ * @param {Array of objests} users масив об’єктів користувачів
+ * @returns масив усіх користувачів, відсортованих за спаданням кількостій їх друзів (властивість friends)
+ */
+const sortByDescendingFriendCount = (users) => {
+  const usersFriendsCount = [];
+  return usersFriendsCount;
+}
 
 /* Напиши стрілочну функцію sortByDescendingFriendCount(users) , яка прийматиме один параметр users — масив об’єктів користувачів.
 
 Функція має повертати масив усіх користувачів, відсортованих за спаданням кількостій їх друзів (властивість friends).
 
-Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
+Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи. */
 
 
 
@@ -99,7 +93,7 @@ console.log(
 //   }
 // ]
 
-Залиш цей код для перевірки ментором.
+/* Залиш цей код для перевірки ментором.
 
 
 
