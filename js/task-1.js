@@ -1,18 +1,17 @@
-function isEnoughCapacity(products, containerSize) {
-  let prodsSize = 0;
-  const prodVols = Object.values(products);
-  for (const prodVol of prodVols) {
-    prodsSize += prodVol;
-  }
-  return prodsSize <= containerSize;
+const getUserNames = (users) => {
+  let names = [];
+  users.forEach((users) => names.push(users.name));
+  return names;
 }
 
-/* Напиши стрілочну функцію getUserNames(users), яка прийматиме один параметр users — масив об’єктів користувачів. Функція має повертати масив імен усіх користувачів (властивість name) із масиву users.
+
+/*Напиши стрілочну функцію getUserNames(users), яка прийматиме один параметр users — масив об’єктів користувачів.
+Функція має повертати масив імен усіх користувачів (властивість name) із масиву users.
 
 Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її викликів.
 
 
-
+ */
 console.log(
   getUserNames([
   {
@@ -56,7 +55,7 @@ console.log(
 
 
 
-Залиш цей код для перевірки ментором.
+/* Залиш цей код для перевірки ментором.
 
 
 
