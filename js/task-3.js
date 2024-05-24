@@ -4,8 +4,8 @@
  * @returns масив усіх користувачів, відсортованих за спаданням кількостій їх друзів (властивість friends)
  */
 const sortByDescendingFriendCount = (users) => {
-  const usersFriendsCount = [];
-  return usersFriendsCount;
+  const usersByFriendsCount = users.toSorted((a, b) => b.friends.length - a.friends.length);
+  return usersByFriendsCount;
 }
 
 /* Напиши стрілочну функцію sortByDescendingFriendCount(users) , яка прийматиме один параметр users — масив об’єктів користувачів.
